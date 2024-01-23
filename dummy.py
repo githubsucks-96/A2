@@ -6,6 +6,7 @@ with open(file="random.dat",mode="r")as f:
         y[i]=float(y[i])
 l=len(y)
 
+
 plt.scatter(np.linspace(1,l,l),y[:l],alpha=0.5,color="blue")
 
 plt.ylabel("autoCorelation",fontsize=20)
